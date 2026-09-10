@@ -1,5 +1,45 @@
+# Dependencies
 node_modules
 npm-debug.log
+yarn-error.log
+
+# Environment / secrets
 .env
+.env.*
+!.env.example
+
+# Git
 .git
 .gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+*.swp
+
+# Logs
+logs
+*.log
+
+# CI / docs
+.github
+README.md
+*.md
+
+# Tests
+test
+tests
+__tests__
+coverage
+*.test.js
+
+# Misc
+.editorconfig
+.eslintrc*
+.prettierrc*
